@@ -1,38 +1,90 @@
+body{
+  background-color: #282D35;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container{
+  position: absolute;
+  inset: 0 0 0 0;
+  margin: auto;
+  max-width: 25%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: #24282F;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.information{
+  color: whitesmoke;
+  font-weight: bolder;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.information > p{
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+.position-text{
+  font-size: 16px;
+  color: darksalmon;
+  font-weight: bold;
+}
+
+.email-text{
+  font-size: 12px;
+}
+
+.image-profile{
+  max-width: 100%;
+  border-radius: 5px 5px 0 0 ;
+}
+
+.button-group{
+  display: inline-flex;
+  width: 100%;
+  gap: 12px;
+  justify-content: center;
+}
+
+.button{
+  background-color: #61dafb;
+  padding: 0.5rem 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.button > i{
+  margin-right: 5px;
+}
+
+.btn-linkedin{
+  color: white;
+  background-color: #0e76a8;
+  margin-right: 10%;
+}
+
+.btn-email{
+  color: black;
+  background-color: whitesmoke;
+  margin-left: 10%;
+}
+
+footer{
+  background-color:#1E2022;
+  padding: 5% 10%;
+  border-radius: 0 0 5px 5px;
+  font-size: 35px;
+  color: gray;
+}
+
+.text-content{
+  margin: 0 10%;
+  text-align: left;
+}
+
+.interests > p, .about > p {
+  font-size: 12px;
 }
